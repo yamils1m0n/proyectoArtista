@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Artista</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+    <header id="cabecera">
+            <h1>  WILLY CROOK  </h1>
+            <nav id="botonera">
+                <ul>
+                    <li>
+                        <a href="index.html">DISCOS</a>
+                    </li>
+                    <li>
+                        <a href="fotos.html">FOTOS</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+
+        <form id="formulario" action="">
+
+            <h2>Contacto por contrataciones</h2>
+
+            <fieldset> <legend>Datos personales</legend>
+
+                <p> <input type="text" name="nombre" placeholder="Ingrese su nombre" size="30"> </p> 
+
+                <p> <input type="tel" name="telefono" placeholder="Ingrese numero telefonico" size="30"> </p>
+
+                <p> <input type="email" name="email" placeholder="Ingresa email" size="30"> </p>
+
+            </fieldset>
+
+            <fieldset> <legend>Informacion del evento</legend>
+
+                <p> <label for="fecha">Fecha del Evento:</label> <input type="date" name="fecha"> </p> 
+
+                <p>  
+                    <label for="formato">Formato del evento:</label>
+                    <select name="formato">
+                        <option selected>Seleccione..</option>
+                        <option value="solista">Solista</option>
+                        <option value="banda">Banda</option>
+                    </select> 
+                </p>
+
+                <p>
+                    <span>Dejanos mas comentarios:</span>
+                    <textarea name="comentario" cols="55" rows="6" placeholder="Escriba aqui.."></textarea> 
+                </p>
+
+            </fieldset>
+
+            <p> <input class="boton" type="submit" value="Enviar formulario"> </p> 
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Sitio auspiciado por @EliaMailE.-</p>
+    </footer>
+
+    </div>
+</body>
+
+</html>
