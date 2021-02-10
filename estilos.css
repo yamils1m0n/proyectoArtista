@@ -15,7 +15,7 @@ body{
 
 #cabecera{
     background-color: grey;
-    opacity: 50%;
+    opacity: 60%;
     margin-bottom: 40px;
 }
 
@@ -32,6 +32,20 @@ h1{
 
 #botonera li{
     display: inline;
+}
+
+#botonera li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-right: 2px solid black;
+    padding: 3px 5px;
+}
+
+#botonera ul li a:hover{
+    background-color: #2c2c2c;
+	color:#ffffff;
 }
 
 main{
@@ -74,7 +88,7 @@ aside{
 
 footer{
     background-color: grey;
-    opacity: 50%;
+    opacity: 60%;
     margin-top: 40px;
 }
 
