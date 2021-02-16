@@ -27,17 +27,17 @@
 
     <main>
 
-        <form id="formulario" action="">
+        <form id="formulario" action="" method="POST">
 
             <h2>Contacto por contrataciones</h2>
 
             <fieldset> <legend>Datos personales</legend>
 
-                <p> <input type="text" name="nombre" placeholder="Ingrese su nombre" size="30"> </p> 
+                <p> <input type="text" name="nombre" placeholder="Ingrese su nombre" size="30" required> </p> 
 
-                <p> <input type="tel" name="telefono" placeholder="Ingrese numero telefonico" size="30"> </p>
+                <p> <input type="tel" name="telefono" placeholder="Ingrese numero telefonico" size="30" required> </p>
 
-                <p> <input type="email" name="email" placeholder="Ingresa email" size="30"> </p>
+                <p> <input type="email" name="email" placeholder="Ingrese email" size="30" required> </p>
 
             </fieldset>
 
@@ -48,7 +48,7 @@
                 <p>  
                     <label for="formato">Formato del evento:</label>
                     <select name="formato">
-                        <option selected>Seleccione..</option>
+                        <option selected disabled>Seleccione..</option>
                         <option value="solista">Solista</option>
                         <option value="banda">Banda</option>
                     </select> 
