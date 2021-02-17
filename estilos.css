@@ -79,7 +79,7 @@ article{
     line-height: 30px;
     color: white;
     border: 1px solid white;
-    box-shadow: inset -8px -8px 15px #f2d9d9;
+    box-shadow: inset -8px -8px 15px #f2d9d9, inset 8px 8px 15px #f2d9d9;
 }
 
 aside{
@@ -98,6 +98,10 @@ aside{
     margin: 18px;
     border: 1px solid white;
     box-shadow: 3px 3px 3px 3px black;
+}
+
+.contenedorFoto:hover{
+    box-shadow: 1px 1px 5px 5px #f2d9d9;
 }
 
 .foto{
