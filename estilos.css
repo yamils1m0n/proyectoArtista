@@ -27,11 +27,8 @@ h1{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-align: center;
-}
-
-#botonera li{
-    display: inline;
+    display: flex;                     /* flexbox */
+    justify-content: center;
 }
 
 #botonera li a{
@@ -41,6 +38,7 @@ h1{
     font-size: 16px;
     border-right: 2px solid black;
     padding: 3px 5px;
+    margin-right: 2px;
 }
 
 #botonera ul li a:hover{
@@ -93,7 +91,8 @@ aside{
     width: 500px;
     height: 320px;
     float: left;
-    margin: 20px;
+    margin: 18px;
+    border: 1px solid white;
 }
 
 .foto{
